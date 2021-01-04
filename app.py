@@ -39,8 +39,7 @@ def update_score(amount):
         
         players[current_idx]["score"] += amount
         
-    
-    
+        
 
 def next_player():
     current_idx = get_idx_of_active_player()
