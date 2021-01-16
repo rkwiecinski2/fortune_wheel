@@ -99,8 +99,7 @@ def convert_sentence(sentence):
     sen = "".join([ "_" if x != " " else f'\u25A0' for x in sentence])
     return sen
     
-    
-     
+         
     
 def show_dashboard(sentence):
     print(sentence)
